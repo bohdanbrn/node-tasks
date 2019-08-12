@@ -1,0 +1,25 @@
+{
+  "name": "task-2.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "lint": "tslint ./src/*.ts",
+    "lint:fix": "tslint ./src/*.ts --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^3.0.2",
+    "nodemon": "^1.19.1",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  }
+}
