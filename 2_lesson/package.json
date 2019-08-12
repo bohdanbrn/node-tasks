@@ -1,0 +1,24 @@
+{
+  "name": "taks-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "tslint ./src/*.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^3.0.2",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}
