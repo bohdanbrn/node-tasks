@@ -7,3 +7,5 @@
 ## Task 2 - A simple application(Shopping Cart) built on TypeScript
 
 ## Task 3 - A simple Node.js application built on NestJS
+
+## Task 4 - A simple Node.js application built on NestJS and MongoDB
